@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateTip(_ sender: Any) {
+        
         let bill = Double(billAmountTextField.text!) ?? 0
         
         let tipPercentages = [0.15, 0.18, 0.2]
@@ -30,6 +31,21 @@ class ViewController: UIViewController {
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
+    
+    @IBAction func nums(_ sender: UIButton) {
+        if sender.tag > 0 && sender.tag <= 10{
+        billAmountTextField.text = billAmountTextField.text! + String(sender.tag-1)
+        }
+        
+        else if sender.tag == 101 {
+            billAmountTextField.text = ""
+            tipAmountLabel.text = "$0.00"
+            totalLabel.text = "$0.00"
+        }
+    
+    }
+
+
 }
     
 
