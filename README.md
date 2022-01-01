@@ -1,6 +1,6 @@
 # Prework
 Code Path Prework assigment 
-# Pre-work - *Name of App Here*
+# Pre-work - tip calculator application for iOS
 
 **Name of your app** is a tip calculator application for iOS.
 
