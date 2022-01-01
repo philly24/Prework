@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/philly24/Prework/blob/main/PreworkGif%20Final.gif' />
-![alt-text](https://github.com/philly24/Prework/blob/main/PreworkGif%20Final.gif)  
+![](https://github.com/philly24/Prework/blob/main/PreworkGif%20Final.gif)  
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
